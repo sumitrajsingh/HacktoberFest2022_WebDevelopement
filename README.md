@@ -11,8 +11,9 @@ Hey Guys, Here in this Repo You all can share any of your Projects with us Just 
 
 P.S. Star ⭐ and Share this repository, if you had fun!! 😍
 
-# Link to the Live Page is [Here](https://sumitrajsingh.github.io/HacktoberFest2022_WebDevelopement/
-)
+# Link to the Live Page is Here:
+https://sumitrajsingh.github.io/HacktoberFest2022_WebDevelopement/
+
 # 📌 Videos 📽️:
 
 - [Hacktoberfest Intro](https://www.youtube.com/watch?v=mq_FIHdxmIk)
