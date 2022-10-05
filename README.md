@@ -11,9 +11,6 @@ Hey Guys, Here in this Repo You all can share any of your Projects with us Just 
 
 P.S. Star ⭐ and Share this repository, if you had fun!! 😍
 
-Hacktoberfest 2022
-![Event Completed](https://raw.githubusercontent.com/fineanmol/Hacktoberfest2022/master/scripts/hacktoberPest/Event_Completed.png)
-
 # 📌 Videos 📽️:
 
 - [Hacktoberfest Intro](https://www.youtube.com/watch?v=mq_FIHdxmIk)
