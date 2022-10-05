@@ -111,3 +111,7 @@
 	border: 2px solid #a6cc4e;
 	margin-bottom: 20px;
 }
+td{
+	border: #666666 solid 1px;
+	color: #666666;
+}
