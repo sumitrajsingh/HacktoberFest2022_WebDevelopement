@@ -115,3 +115,20 @@ td{
 	border: #666666 solid 1px;
 	color: #666666;
 }
+
+.luke-card:hover{
+	
+	transition: ease-in-out;
+	animation: luke-spin .3s forwards;
+}
+
+@keyframes luke-spin {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform:rotate(360deg);
+    }
+}
+
