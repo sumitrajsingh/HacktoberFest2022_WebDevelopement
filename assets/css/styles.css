@@ -115,3 +115,4 @@ td{
 	border: #666666 solid 1px;
 	color: #666666;
 }
+a:link{ background-color: green; color: white; padding: 10px 25px; text-align: center; text-decoration: none; display: inline-block}
