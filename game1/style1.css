@@ -1,0 +1,75 @@
+.game{
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    background-color: azure;
+    border: dashed rgb(20, 190, 190) 5px;
+    box-shadow:  rgba(128, 128, 128, 0.609) 5px 5px 20px;
+    border-radius: 10px;
+
+} 
+.box{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: solid black 1px;
+    box-shadow: rgba(0, 0, 0, 0.43) 0px 0px 10px;
+}
+
+.player{
+    
+    background-color: blue;
+    transform: translateY(350px) translateX(50px);
+    animation: move 4s linear;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+/* .game:active .player{
+    animation-play-state: running;
+} */
+
+.btn{
+    margin-left: 250px;
+    transform: translateY(750px);
+    padding: 20px;
+    height: 30px;
+    width: 40px;
+    font-size: larger;
+    text-align: center;
+    border: solid black 1px;
+    background-color: rgb(255, 111, 0);
+    box-shadow:  rgba(128, 128, 128, 0.638) 5px 5px 10px;
+    border-radius: 10px;
+}
+.btn:active~.player
+{
+    animation-play-state: running;
+}
+
+.enemy{
+    margin-left: 100px;
+    background-color: red;
+    animation: bounce;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.enemy.one{
+    animation-duration: 3s;
+}
+.enemy.two{
+    animation-duration: 2s;
+}
+
+
+@keyframes bounce{
+    50%{
+        transform: translateY(450px);
+    }
+}
+
+@keyframes move {
+    50%{
+        transform: translateY(350px) translateX(500px);
+    }
+}
