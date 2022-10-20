@@ -1,5 +1,3 @@
-# HacktoberFest2022_WebDevelopement
-#freeGOODIESforALL
 Hacktoberfest_Accepted , there we are merging all PR.
 
 Hacktoberfest-2022
